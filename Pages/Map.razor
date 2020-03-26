@@ -1,0 +1,43 @@
+@page "/"
+@inject IJSRuntime JSRuntime;
+@inject HttpClient Http
+
+<h1>COVID-19 Map</h1>
+<select id="" @bind="SelectedValue">
+    <option default value="total">
+        Total Cases
+    </option>
+    <option value="new">
+        New Cases
+    </option>
+    <option value="critical">
+        Critical Cases
+    </option>
+    <option value="active">
+        Active Cases
+    </option>
+    <option value="recovered">
+        Recovered
+    </option>
+    <option value="deaths">
+        Deaths
+    </option>
+</select>
+<div id="regions_div" style="width: 100vh; height: 80vh;"></div>
+
+<a href="https://api-sports.io/documentation/covid-19">API</a>
+
+@code {
+
+    public string SelectedValue { get { return _SelectedValue; } set { _SelectedValue = value; TriggerMapRender(); } }
+    private string _SelectedValue = "total";
+
+    protected override void OnInitialized() {
+        TriggerMapRender();
+    }
+    public async Task TriggerMapRender()
+    {
+        var corona_map = new CoronaMap(JSRuntime);
+        corona_map.InitMap(this.SelectedValue);
+    }
+}
