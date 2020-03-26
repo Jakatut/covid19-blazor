@@ -258,3 +258,7 @@
 /home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/Razor/Pages/Map.razor.g.cs
 /home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Infomration.razor.g.cs
 /home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/Razor/Pages/Infomration.razor.g.cs
+/home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/RazorDeclaration/Pages/ThinkYouAreSick.razor.g.cs
+/home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/Razor/Pages/ThinkYouAreSick.razor.g.cs
+/home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/RazorDeclaration/Pages/HowToPrevent.razor.g.cs
+/home/cmac/workspace/hackday/corona_map/obj/Debug/netstandard2.1/Razor/Pages/HowToPrevent.razor.g.cs

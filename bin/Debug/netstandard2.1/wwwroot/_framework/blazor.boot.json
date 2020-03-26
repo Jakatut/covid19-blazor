@@ -5,7 +5,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "corona_map.dll": "sha256-tYBH7B\/E0FoZqdEfxDu1ldd0uoRXhWiXLTErp0IHZTM=",
+      "corona_map.dll": "sha256-POYpNYBPh79NIbVkjkf+mdlwBQopjkxdMTjYlQZE774=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-ye2f6g9b5EFwzv\/4ts75giTehIAZ9s0Z4zHQIu1DDqg=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-UcgIuNxTv0vMMscShyt5E8UJqByugn57x0++iV\/FB2Y=",
@@ -52,7 +52,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-As4J4IKSKh3bNALtK4PSknM5suoP1j6I5YXiOIrIZ3U="
     },
     "pdb": {
-      "corona_map.pdb": "sha256-n4+Ap2G4LatBeheOoCjK73GqldlvEDgV+Y9iJX4ixeA="
+      "corona_map.pdb": "sha256-DCX3qRMTgUn0RUHRHbK4Ceby613Q88aYh24jzz8P2so="
     },
     "runtime": {
       "dotnet.3.2.0-preview2.20159.2.js": "sha256-80Q7rIpqLxXzuMWqtC+FCBNrG15kR\/r+ba08n2TpQO0=",

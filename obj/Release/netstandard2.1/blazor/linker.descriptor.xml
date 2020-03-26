@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="corona_map">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>

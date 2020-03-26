@@ -239,6 +239,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "corona_map.Pages.Map",
+        "AssemblyName": "corona_map",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Map",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "corona_map.Pages.Map"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "corona_map.Pages.Map",
+        "AssemblyName": "corona_map",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "corona_map.Pages.Map",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "corona_map.Pages.Map",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "corona_map.Pages.Infomration",
         "AssemblyName": "corona_map",
         "Documentation": null,
@@ -288,14 +337,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "corona_map.Pages.Map",
+        "Name": "corona_map.Pages.ThinkYouAreSick",
         "AssemblyName": "corona_map",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Map",
+            "TagName": "ThinkYouAreSick",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -307,19 +356,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "corona_map.Pages.Map"
+          "Common.TypeName": "corona_map.Pages.ThinkYouAreSick"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "corona_map.Pages.Map",
+        "Name": "corona_map.Pages.ThinkYouAreSick",
         "AssemblyName": "corona_map",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "corona_map.Pages.Map",
+            "TagName": "corona_map.Pages.ThinkYouAreSick",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -331,7 +380,56 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "corona_map.Pages.Map",
+          "Common.TypeName": "corona_map.Pages.ThinkYouAreSick",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "corona_map.Pages.HowToPrevent",
+        "AssemblyName": "corona_map",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HowToPrevent",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "corona_map.Pages.HowToPrevent"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "corona_map.Pages.HowToPrevent",
+        "AssemblyName": "corona_map",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "corona_map.Pages.HowToPrevent",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "corona_map.Pages.HowToPrevent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16408,6 +16506,16 @@
     {
       "FilePath": "/home/cmac/workspace/hackday/corona_map/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/cmac/workspace/hackday/corona_map/Pages/HowToPrevent.razor",
+      "TargetPath": "Pages\\HowToPrevent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/cmac/workspace/hackday/corona_map/Pages/ThinkYouAreSick.razor",
+      "TargetPath": "Pages\\ThinkYouAreSick.razor",
       "FileKind": "component"
     },
     {
